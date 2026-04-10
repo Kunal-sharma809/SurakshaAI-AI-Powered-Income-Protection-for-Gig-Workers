@@ -141,7 +141,7 @@ const page = () => {
               </div>
             </div>
 
-            <button className='w-full bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 disabled:opacity-60 mt-2'>Create Account</button>
+            <button type='submit' className='w-full bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 disabled:opacity-60 mt-2'>Create Account</button>
           </form>
 
           <div className='mt-5 text-center text-sm text-gray-500'>Already have an account?

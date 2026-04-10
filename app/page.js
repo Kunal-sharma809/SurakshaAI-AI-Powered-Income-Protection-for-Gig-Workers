@@ -11,10 +11,10 @@ export default function Home() {
           </div>
 
           <ul className="flex gap-8 items-center text-sm">
-            <li>How it Works?</li>
-            <li>Pricing</li>
-            <li>Login</li>
-            <li className="bg-blue-600 px-4 py-2 rounded-lg font-semibold text-white">Get Started</li>
+            <a href="#how-it-works">How it Works?</a>
+            <a href="#pricing">Pricing</a>
+            <a href="/login">Login</a>
+            <a href="/register" className="bg-blue-600 px-4 py-2 rounded-lg font-semibold text-white">Get Started</a>
           </ul>
         </nav>
         <section className="hero flex justify-between items-center py-20">
@@ -102,7 +102,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col bg-white">
-        <section className="problems flex flex-col justify-center items-center py-24 px-36">
+        <section id="problems" className="problems flex flex-col justify-center items-center py-24 px-36">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold">Your income stops. Your expenses don't.</h2>
@@ -141,7 +141,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="how-it-works bg-[#F9FAFB] py-24">
+        <section id="how-it-works" className="bg-[#F9FAFB] py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center">
               <div className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 w-fit rounded-full mb-4 mx-auto">How It Works</div>
@@ -178,7 +178,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="statistics bg-[linear-gradient(135deg,_#1e3a8a_0%,_#1d4ed8_50%,_#0891b2_100%)] text-white py-24">
+        <section id="statistics" className="bg-[linear-gradient(135deg,_#1e3a8a_0%,_#1d4ed8_50%,_#0891b2_100%)] text-white py-24">
           <div className="max-w-7xl mx-auto px-6">
             <h2 className="text-4xl font-bold mb-4 text-center">Trusted by gig workers across India</h2>
             <p className="text-blue-200 mb-16 text-center">Real numbers. Real impact.</p>
@@ -207,7 +207,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="testimonials mx-auto py-24 max-w-7xl px-6">
+        <section id="testimonials" className="mx-auto py-24 max-w-7xl px-6">
           <h2 className="text-4xl font-bold mb-16 text-center">Gig workers love GigShield</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-[#F9FAFB] rounded-2xl border border-gray-100 p-6 hover:shadow-md transition-shadow">
@@ -268,7 +268,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="pricing bg-[#F9FAFB] py-24">
+        <section id="pricing" className="bg-[#F9FAFB] py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <div className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 w-fit rounded-full mb-4">Pricing</div>
