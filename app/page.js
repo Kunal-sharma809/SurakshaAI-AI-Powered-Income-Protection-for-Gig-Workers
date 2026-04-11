@@ -271,7 +271,7 @@ export default function Home() {
         <section id="pricing" className="bg-[#F9FAFB] py-24">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
-              <div className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 w-fit rounded-full mb-4">Pricing</div>
+              <div className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 w-fit rounded-full mb-4 mx-auto">Pricing</div>
               <h2 className="text-4xl font-bold mb-4">Coverage that fits your earning</h2>
               <p className="text-lg text-gray-500">Starting at just ₹99/month</p>
             </div>
@@ -298,7 +298,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center mt-8">
-              <a className="text-blue-600 text-sm font-medium hover:underline flex items-center gap-1 justify-center" href="">See full pricing details <Image src="/right-arrow.svg" alt="" height={12} width={12}/></a>
+              <a className="text-blue-600 text-sm font-medium hover:underline flex items-center gap-1 justify-center" href="/pricing">See full pricing details <Image src="/right-arrow.svg" alt="" height={12} width={12}/></a>
             </div>
           </div>
         </section>
