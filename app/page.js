@@ -30,11 +30,11 @@ export default function Home() {
           </div>
 
           <div className="flex gap-6">
-            <button className="flex gap-2 items-center bg-white px-6 py-3 rounded-2xl text-blue-700 font-semibold hover:bg-white/90">
+            <a href="/register" className="flex gap-2 items-center bg-white px-6 py-3 rounded-2xl text-blue-700 font-semibold hover:bg-white/90">
               <span>Get Started Free</span>
               <Image src="/right-arrow.svg" alt="" width={18} height={18} />
-            </button>
-            <button className="border border-white/30 px-6 py-3 text-white rounded-2xl hover:bg-white/10">See How It Works</button>
+            </a>
+            <a href="#how-it-works" className="border border-white/30 px-6 py-3 text-white rounded-2xl hover:bg-white/10">See How It Works</a>
           </div>
 
           <div className="flex gap-6 text-white">
@@ -308,7 +308,7 @@ export default function Home() {
             <div className="bg-blue-600 rounded-3xl p-12 shadow-2xl">
               <h2 className="font-heading text-4xl font-bold text-white mb-4">Start protecting your income today</h2>
               <p className="text-blue-100 mb-8">Join 15,000+ gig workers who never worry about weather again. Setup takes 2 minutes.</p>
-              <div className="inline-flex items-center gap-2 bg-white text-blue-700 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-all shadow-lg text-lg">Get Started Free <Image src="/right-arrow.svg" alt="" height={24} width={24}/></div>
+              <a href="/register" className="inline-flex items-center gap-2 bg-white text-blue-700 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-all shadow-lg text-lg">Get Started Free <Image src="/right-arrow.svg" alt="" height={24} width={24}/></a>
             </div>
           </div>
         </section>

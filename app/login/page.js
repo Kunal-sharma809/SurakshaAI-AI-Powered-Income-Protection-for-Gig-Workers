@@ -47,12 +47,12 @@ const page = () => {
                     <form action="" className='space-y-5'>
                         <div>
                             <label htmlFor="" className='text-sm font-medium text-[#111827] block mb-1.5'>Email address</label>
-                            <input type="text" placeholder='you@example.com' className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all' />
+                            <input type="text" required placeholder='you@example.com' className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all' />
                         </div>
                         <div>
                             <label className='text-sm font-medium text-[#111827] block mb-1.5'>Password</label>
                             <div className='relative'>
-                                <input type="password" className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='Min 6 characters' />
+                                <input type="password" required className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='Min 6 characters' />
                                 <button className='absolute right-3 top-1/2 -translate-y-1/2 text-gray-400'>
                                     <Image src="/eye.svg" alt="" height={16} width={16} />
                                 </button>

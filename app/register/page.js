@@ -73,27 +73,27 @@ const page = () => {
             <div className='grid grid-cols-2 gap-4'>
               <div className="col-span-2">
                 <label className='text-sm font-medium text-[#111827] block mb-1.5'>Full Name</label>
-                <input type="text" className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='Rahul Sharma'/>
+                <input type="text" required className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='Rahul Sharma'/>
               </div>
               <div className="col-span-2">
                 <label className='text-sm font-medium text-[#111827] block mb-1.5'>Email address</label>
-                <input type="text" className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='you@example.com'/>
+                <input type="text" required className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='you@example.com'/>
               </div>
               <div>
                 <label className='text-sm font-medium text-[#111827] block mb-1.5'>Phone number</label>
-                <input type="text" className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='+91-9876543210'/>
+                <input type="text" required className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='+91-9876543210'/>
               </div>
               <div>
                 <label className='text-sm font-medium text-[#111827] block mb-1.5'>Password</label>
                 <div className='relative'>
-                  <input type="password" className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='Min 6 characters'/>
+                  <input type="password" required className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500' placeholder='Min 6 characters'/>
                   <button className='absolute right-3 top-1/2 -translate-y-1/2 text-gray-400'>
                   <Image src="/eye.svg" alt="" height={16} width={16}/></button>
                 </div>
               </div>
               <div>
                 <label className='text-sm font-medium text-[#111827] block mb-1.5'>City</label>
-                <select name="" id="" className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white'>
+                <select name="" id="" required className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white'>
                   <option value="">Select City</option>
                   <option value="">Mumbai</option>
                   <option value="">Delhi</option>
@@ -109,7 +109,7 @@ const page = () => {
               </div>
               <div>
                 <label className='text-sm font-medium text-[#111827] block mb-1.5'>Work type</label>
-                <select name="" id="" className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white'>
+                <select name="" id="" required className='w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white'>
                   <option value="">Select type</option>
                   <option value="">Delivery (Swiggy, Zomato, Amazon)</option>
                   <option value="">Ride (Uber, Ola, Rapido)</option>
