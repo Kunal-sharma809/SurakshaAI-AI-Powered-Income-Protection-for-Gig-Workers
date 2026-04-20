@@ -19,12 +19,12 @@ const page = () => {
 
                 <div className='space-y-3'>
                     <div className='flex items-center gap-3 bg-white/10 backdrop-blur rounded-xl px-4 py-3'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#5EEAD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-rain w-6 h-6" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Landing.tsx:162:20" data-component-name="Icon"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path><path d="M16 14v6"></path><path d="M8 14v6"></path><path d="M12 16v6"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#5EEAD4" strokeWidth="2" stroke-linecap="round" strokeLinejoin="round" className="lucide lucide-cloud-rain w-6 h-6" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Landing.tsx:162:20" data-component-name="Icon"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path><path d="M16 14v6"></path><path d="M8 14v6"></path><path d="M12 16v6"></path></svg>
                         <span className='text-sm flex-1'>Heavy rain payout: &#8377;1,500 → Rahul K., Mumbai</span>
                         <span className='text-xs text-blue-300'>2 min ago</span>
                     </div>
                     <div className='flex items-center gap-3 bg-white/10 backdrop-blur rounded-xl px-4 py-3'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#5EEAD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-4 h-4 text-yellow-400" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Landing.tsx:66:14" data-component-name="Zap"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#5EEAD4" strokeWidth="2" stroke-linecap="round" strokeLinejoin="round" className="lucide lucide-zap w-4 h-4 text-yellow-400" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Landing.tsx:66:14" data-component-name="Zap"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg>
                         <span className='text-sm flex-1'>Heat wave payout: &#8377;500 → Priya M., Delhi</span>
                         <span className='text-xs text-blue-300'>1 hr ago</span>
                     </div>

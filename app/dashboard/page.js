@@ -61,11 +61,11 @@ const page = () => {
         <div className='flex-1 flex flex-col overflow-hidden'>
             <div className='lg:hidden bg-white border-b border-gray-100 px-4 py-3 flex items-center gap-3'>
                 <button className='p-1 rounded-lg hover:bg-gray-100'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu w-5 h-5 text-gray-600" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/components/DashboardLayout.tsx:91:12" data-component-name="Menu"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-menu w-5 h-5 text-gray-600" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/components/DashboardLayout.tsx:91:12" data-component-name="Menu"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
                 </button>
                 <div className='flex items-center gap-2'>
                     <div className='w-6 h-6 rounded-md bg-blue-600 flex items-center justify-center'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-3 h-3 text-white" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/components/DashboardLayout.tsx:95:14" data-component-name="Shield"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shield w-3 h-3 text-white" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/components/DashboardLayout.tsx:95:14" data-component-name="Shield"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
                     </div>
                     <span className='font-bold text-[#111827]'>GigShield</span>
                 </div>
@@ -81,7 +81,7 @@ const page = () => {
                     <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
                         <div className='bg-white rounded-2xl border border-gray-100 p-5 shadow-sm'>
                             <div className='w-10 h-10 rounded-xl text-orange-600 bg-orange-50 flex items-center justify-center mb-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:74:20" data-component-name="Icon"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-triangle-alert w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:74:20" data-component-name="Icon"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
                             </div>
                             <div className='text-xs text-gray-500 mb-1'>Risk Level</div>
                             <div className='font-bold text-[#111827] text-lg leading-tight'>HIGH</div>
@@ -89,7 +89,7 @@ const page = () => {
                         </div>
                         <div className='bg-white rounded-2xl border border-gray-100 p-5 shadow-sm'>
                             <div className='w-10 h-10 rounded-xl text-blue-600 bg-blue-50 flex items-center justify-center mb-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:74:20" data-component-name="Icon"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shield w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:74:20" data-component-name="Icon"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
                             </div>
                             <div className='text-xs text-gray-500 mb-1'>Active Policy</div>
                             <div className='font-bold text-[#111827] text-lg leading-tight'>PRO Plan</div>
@@ -97,7 +97,7 @@ const page = () => {
                         </div>
                         <div className='bg-white rounded-2xl border border-gray-100 p-5 shadow-sm'>
                             <div className='w-10 h-10 rounded-xl text-teal-600 bg-teal-50 flex items-center justify-center mb-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:74:20" data-component-name="Icon"><path d="M16 7h6v6"></path><path d="m22 7-8.5 8.5-5-5L2 17"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-trending-up w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:74:20" data-component-name="Icon"><path d="M16 7h6v6"></path><path d="m22 7-8.5 8.5-5-5L2 17"></path></svg>
                             </div>
                             <div className='text-xs text-gray-500 mb-1'>Total Claims</div>
                             <div className='font-bold text-[#111827] text-lg leading-tight'>2 claims</div>
@@ -105,7 +105,7 @@ const page = () => {
                         </div>
                         <div className='bg-white rounded-2xl border border-gray-100 p-5 shadow-sm'>
                             <div className='w-10 h-10 rounded-xl text-green-600 bg-green-50 flex items-center justify-center mb-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-indian-rupee w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:74:20" data-component-name="Icon"><path d="M6 3h12"></path><path d="M6 8h12"></path><path d="m6 13 8.5 8"></path><path d="M6 13h3"></path><path d="M9 13c6.667 0 6.667-10 0-10"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-indian-rupee w-5 h-5" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:74:20" data-component-name="Icon"><path d="M6 3h12"></path><path d="M6 8h12"></path><path d="m6 13 8.5 8"></path><path d="M6 13h3"></path><path d="M9 13c6.667 0 6.667-10 0-10"></path></svg>
                             </div>
                             <div className='text-xs text-gray-500 mb-1'>Earnings Protected</div>
                             <div className='font-bold text-[#111827] text-lg leading-tight'>&#8377;18000</div>
@@ -134,7 +134,7 @@ const page = () => {
                             <div className='space-y-2'>
                                 <div className='border-l-4 border-l-red-400 bg-red-50 rounded-r-xl px-3 py-2.5'>
                                     <div className='flex items-center gap-1.5 mb-0.5'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell w-3 h-3" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:114:26" data-component-name="Bell"><path d="M10.268 21a2 2 0 0 0 3.464 0"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"></path></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-bell w-3 h-3" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:114:26" data-component-name="Bell"><path d="M10.268 21a2 2 0 0 0 3.464 0"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"></path></svg>
                                         <span className='text-xs font-semibold capitalize'>Rain · Mumbai</span>
                                     </div>
                                     <p className='text-xs text-gray-600 leading-relaxed line-clamp-2'>Extremely heavy rainfall expected. IMD Red Alert issued. Payouts will trigger automatically if rainfall exceeds 80mm.</p>
@@ -142,7 +142,7 @@ const page = () => {
 
                                 <div className='border-l-4 border-l-yellow-400 bg-yellow-50 rounded-r-xl px-3 py-2.5'>
                                     <div className='flex items-center gap-1.5 mb-0.5'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell w-3 h-3" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:114:26" data-component-name="Bell"><path d="M10.268 21a2 2 0 0 0 3.464 0"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"></path></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-bell w-3 h-3" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Dashboard.tsx:114:26" data-component-name="Bell"><path d="M10.268 21a2 2 0 0 0 3.464 0"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"></path></svg>
                                         <span className='text-xs font-semibold capitalize'>Pollution · Mumbai</span>
                                     </div>
                                     <p className='text-xs text-gray-600 leading-relaxed line-clamp-2'>AQI has risen to 162 over the past 6 hours. Monitor conditions.</p>
@@ -150,6 +150,33 @@ const page = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className='bg-white rounded-2xl border border-gray-100 p-6 shadow-sm'>
+                        <h2 className='font-semibold text-[#111827] mb-4'>Recent Payments</h2>
+                        <div className='overflow-x-auto'>
+                            <table className='w-full text-sm'>
+                                <thead>
+                                    <tr className='text-xs text-gray-500 border-b border-gray-100'>
+                                        <th className='pb-2 text-left font-medium'>Transactions</th>
+                                        <th className='pb-2 text-left font-medium'>Method</th>
+                                        <th className='pb-2 text-right font-medium'>Amount</th>
+                                        <th className='pb-2 text-right font-medium'>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody className='divide-y divide-gray-50'>
+                                    <tr>
+                                        <td className='py-3 text-gray-700 font-mono text-xs'>TXN_GS_20260401_001</td>
+                                        <td className='py-3 text-gray-500'>UPI</td>
+                                        <td className='py-3 text-right font-semibold text-[#111827]'>&#8377;1500</td>
+                                        <td className='py-3 text-right'>
+                                            <span className='text-xs px-2 py-0.5 rounded-full font-medium bg-green-50 text-green-600'>completed</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
                 </div>
             </main>
         </div>
