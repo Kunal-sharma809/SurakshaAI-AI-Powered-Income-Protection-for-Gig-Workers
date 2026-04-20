@@ -20,7 +20,7 @@ export default function Home() {
         <section className="hero flex justify-between items-center py-20">
           <div className="left flex flex-col gap-8 lg:w-[45vw] w-[80vw]">
           <div className="bg-white/10 backdrop-blur flex gap-3 items-center px-4 py-2 w-fit rounded-full">
-            <Image className="text-yellow-400" height={16} width={16} src="/lightning.svg" alt="" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-4 h-4 text-yellow-400" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Landing.tsx:66:14" data-component-name="Zap"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg>
             <p className="text-sm text-white">AI-powered instant payouts</p>
           </div>
 
@@ -131,8 +131,8 @@ export default function Home() {
                 <p className="text-gray-500 text-sm">AQI &gt; 300 forces gig workers indoors</p>
               </div>
               <div className="city-disruption bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md">
-                <div className="w-12 h-12 bg-blue-50 rounded-xl flex justify-center items-center mb-4">
-                  <Image src="/danger2.svg" alt="" height={24} width={24} />
+                <div className="w-12 h-12 bg-red-50 rounded-xl flex justify-center items-center mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert w-6 h-6" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Landing.tsx:162:20" data-component-name="Icon"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
                 </div>
                 <p className="font-semibold mb-2">City Disruptions</p>
                 <p className="text-gray-500 text-sm">Curfews, protests, lockdowns cut income instantly</p>
@@ -168,7 +168,7 @@ export default function Home() {
               </div>
               <div className="text-center bg-white rounded-2xl border border-gray-100 p-8 shadow-sm hover:shadow-md z-1">
                 <div className="w-16 h-16 rounded-2xl bg-blue-600 flex items-center justify-center mx-auto mb-6 shadow-lg">
-                  <Image src="/lightning2.svg" alt="" height={24} width={24}/>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-4 h-4 text-yellow-400" aria-hidden="true" data-replit-metadata="artifacts/gigshield/src/pages/Landing.tsx:66:14" data-component-name="Zap"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg>
                 </div>
                 <p className="text-sm font-bold text-blue-600 mb-2">03</p>
                 <h3 className="text-xl font-bold text-[#111827] mb-3">Auto Payout</h3>

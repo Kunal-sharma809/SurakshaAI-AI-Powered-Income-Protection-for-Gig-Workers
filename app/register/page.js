@@ -43,7 +43,7 @@ const page = () => {
         </div>
 
         <div className='bg-white/10 rounded-2xl p-6'>
-          <p className='text-sm text-blue-100 italic mb-3'>"Last monsoon season, GigShield paid me ₹9,000 across 6 payout events. Completely automatic. Changed my life."</p>
+          <p className='text-sm text-blue-100 italic mb-3'>&quot;Last monsoon season, GigShield paid me ₹9,000 across 6 payout events. Completely automatic. Changed my life.&quot;</p>
           <div className='flex items-center gap-2'>
             <div className='w-8 h-8 rounded-full bg-white/20 flex items-center justify-center font-bold text-sm'>R</div>
             <div>
