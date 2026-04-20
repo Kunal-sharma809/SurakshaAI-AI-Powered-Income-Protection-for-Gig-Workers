@@ -105,8 +105,8 @@ export default function Home() {
         <section id="problems" className="problems flex flex-col justify-center items-center py-24 px-36">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold">Your income stops. Your expenses don't.</h2>
-              <p className="text-lg text-gray-500 max-w-2xl text-center mt-4 mx-auto">Gig workers lose 30-60% of income on bad weather days. Traditional insurance doesn't cover this. GigShield does.</p>
+              <h2 className="text-4xl font-bold">Your income stops. Your expenses don&apos;t.</h2>
+              <p className="text-lg text-gray-500 max-w-2xl text-center mt-4 mx-auto">Gig workers lose 30-60% of income on bad weather days. Traditional insurance doesn&apos;t cover this. GigShield does.</p>
             </div>
             <div className="cards grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="heavy-rain bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-md">
@@ -217,7 +217,7 @@ export default function Home() {
                 <Image src="/star.svg" alt="" height={18} width={18}/>
                 <Image src="/star.svg" alt="" height={18} width={18}/>
               </div>
-              <p className="text-gray-700 text-sm leading-relaxed mb-4">"Monsoon season used to mean zero income. Last July, GigShield paid me ₹1,500 automatically when heavy rain hit. I didn't have to do anything."</p>
+              <p className="text-gray-700 text-sm leading-relaxed mb-4">&quot;Monsoon season used to mean zero income. Last July, GigShield paid me ₹1,500 automatically when heavy rain hit. I didn&apos;t have to do anything.&quot;</p>
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
                   <span className="text-xs font-bold text-blue-600">R</span>
@@ -236,7 +236,7 @@ export default function Home() {
                 <Image src="/star.svg" alt="" height={18} width={18}/>
                 <Image src="/star.svg" alt="" height={18} width={18}/>
               </div>
-              <p className="text-gray-700 text-sm leading-relaxed mb-4">"The Delhi heat wave was brutal. I couldn't drive, but GigShield detected the 44°C temperature and sent ₹500 to my UPI before I even knew it triggered."</p>
+              <p className="text-gray-700 text-sm leading-relaxed mb-4">&quot;The Delhi heat wave was brutal. I couldn&apos;t drive, but GigShield detected the 44°C temperature and sent ₹500 to my UPI before I even knew it triggered.&quot;</p>
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
                   <span className="text-xs font-bold text-blue-600">P</span>
@@ -254,7 +254,7 @@ export default function Home() {
                 <Image src="/star.svg" alt="" height={18} width={18}/>
                 <Image src="/star.svg" alt="" height={18} width={18}/>
               </div>
-              <p className="text-gray-700 text-sm leading-relaxed mb-4">"₹249/month for the Pro plan. I've received ₹4,500 in payouts this year alone. Best investment I've made."</p>
+              <p className="text-gray-700 text-sm leading-relaxed mb-4">&quot;₹249/month for the Pro plan. I&apos;ve received ₹4,500 in payouts this year alone. Best investment I&apos;ve made.&quot;</p>
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
                   <span className="text-xs font-bold text-blue-600">A</span>
@@ -324,7 +324,7 @@ export default function Home() {
                 </div>
                 <span className="font-heading text-lg font-bold text-white">GigShield</span>
               </div>
-              <p className="text-sm leading-relaxed">AI-powered parametric insurance built for India's 15 crore gig workers.</p>
+              <p className="text-sm leading-relaxed">AI-powered parametric insurance built for India&apos;s 15 crore gig workers.</p>
             </div>
 
             <div>
